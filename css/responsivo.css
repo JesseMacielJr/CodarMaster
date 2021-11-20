@@ -1,0 +1,168 @@
+/* Estilo para Tablets */
+@media only screen and (min-width: 768px) and (max-width: 958px) {
+   .container {
+      max-width: 700px;
+      margin: 0 auto;
+   }
+
+   /* Introdução */
+   .introducao-img {
+      margin-right: 60px;
+   }
+
+   /* Depoimentos */
+   .depoimentos-interno {
+      margin-left: 30%;
+   }
+
+   /* Footer */
+   .footer i {
+      margin-right: 1px;
+   }
+}
+
+/* Estilo para smartphones */
+@media only screen and (max-width: 767px) {
+   /* Cabeçalho */
+   .cabecalho {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .navegacao ul li:last-child {
+      display: none;
+   }
+
+   /* Introdução */
+   .introducao {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+   }
+
+   .introducao-img,
+   .detalhes-img {
+      width: 350px;
+   }
+
+   /* Detalhe */
+   .detalhes {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+   }
+
+   .detalhes-escrito {
+      margin-top: -70px;
+   }
+
+   /* Contato */
+   .contato {
+      margin-top: -80px;
+   }
+
+   .contato-titulo {
+      text-align: center;
+   }
+
+   .contato-celular input {
+      margin-right: 0px;
+   }
+
+   .contato-celular {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   /* Depoimentos */
+   .depoimentos {
+      margin-top: 100px;
+      flex-direction: column;
+   }
+
+   .depoimentos-1,
+   .depoimentos-2 {
+      margin-bottom: 20px;
+   }
+
+   .depoimentos-interno {
+      margin-left: 25%;
+   }
+
+   /* Footer */
+   .footer {
+      margin-top: 30px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+   }
+
+   .footer-1,
+   .footer-2,
+   .footer-3,
+   .footer-4 {
+      margin-bottom: 25px;
+   }
+
+   .footer-logo {
+      align-self: center;
+      text-align: center;
+   }
+
+   .footer i {
+      margin-right: 5px;
+   }
+}
+
+/* Estilo para smartphones pequenos */
+@media only screen and (max-width: 300px) {
+   /* Cabeçalho */
+
+   .navegacao ul li {
+      padding: 6px;
+   }
+
+   /* Introdução */
+   .introducao {
+      align-items: center;
+   }
+
+   .introducao-img,
+   .detalhes-img {
+      width: 200px;
+   }
+
+   /* Detalhe */
+   .detalhes {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+   }
+
+   /* Depoimentos */
+   .depoimentos-1,
+   .depoimentos-2 {
+      margin-bottom: 15px;
+   }
+
+   .depoimentos-interno {
+      margin-left: 30%;
+   }
+
+   .depoimentos-nome {
+      margin-top: 10px;
+      font-size: 1em;
+   }
+
+   .bola {
+      height: 45px;
+      width: 45px;
+   }
+
+   /* Footer */
+   .footer div {
+      margin-bottom: 20px;
+   }
+}

@@ -1,0 +1,295 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+   margin: 0px;
+   padding: 0px;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   color: #222222;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   display: block;
+   /* 100% do próprio tamanho da imagem */
+   max-width: 100%;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 0px 10px;
+}
+
+.btn {
+   background: #d6000d;
+   color: #fff;
+   padding: 10px 50px;
+   border-radius: 8px;
+}
+
+/* Header */
+.cabecalho {
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   padding: 20px 40px;
+}
+
+.logo {
+   font-size: 2.5em;
+   color: #d6000d;
+   font-weight: bold;
+}
+
+.navegacao ul {
+   display: flex;
+}
+
+.navegacao ul li {
+   font-size: 1.2em;
+   letter-spacing: 0.1em;
+   padding: 15px;
+}
+
+.navegacao ul li:hover {
+   transform: scale(1.02);
+}
+
+.navegacao ul li a {
+   color: #000;
+}
+
+.navegacao ul li a:hover {
+   color: #d6000d;
+   transition: all 0.1s ease-out;
+}
+
+.navegacao ul li a.btn {
+   color: #fff;
+}
+
+/* Introdução */
+.introducao {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   /* border: 1px solid red; */
+}
+
+.introducao div {
+   margin-bottom: 40px;
+   /* border: 1px solid green; */
+}
+
+.introducao img {
+   width: 500px;
+}
+
+.introducao-escrito {
+   line-height: 40px;
+}
+
+.introducao-escrito p,
+.contato p {
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+.introducao-escrito p.destaque {
+   color: #d6000d;
+   font-size: 3em;
+   letter-spacing: 0;
+}
+
+.introducao-botao:hover {
+   transform: scale(1.05);
+}
+
+.destaque {
+   margin-bottom: 50px;
+}
+
+/* Detalhes */
+.detalhes {
+   margin-top: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   /* border: 1px solid red; */
+}
+
+.detalhes-escrito ul {
+   height: 500px;
+   line-height: 2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.detalhes-escrito ul li {
+   font-size: 1.2em;
+   font-weight: 550;
+   margin-bottom: 15px;
+   letter-spacing: 0.1em;
+}
+
+.detalhes-escrito ul li i {
+   margin-right: 15px;
+   color: #d6000d;
+}
+
+.detalhes-img {
+   width: 500px;
+}
+
+.contato {
+   margin-top: -15px;
+}
+
+.contato-celular {
+   display: flex;
+}
+
+.contato-celular input {
+   margin-top: 15px;
+   margin-right: 10px;
+   padding: 15px 10px;
+   background-color: #eee;
+   border: none;
+   border-radius: 10px;
+}
+
+.contato-botao {
+   margin-top: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+/* Depoimentos */
+.depoimentos {
+   width: 97%;
+   margin-top: 200px;
+   display: flex;
+   justify-content: center;
+}
+
+.depoimentos-1,
+.depoimentos-2 {
+   padding: 20px;
+   margin: 0 15px;
+   background-color: #eee;
+   border-radius: 10px;
+}
+
+.depoimentos-texto-1 {
+   max-width: 400px;
+}
+
+.depoimentos-texto-2 {
+   max-width: 400px;
+}
+
+.depoimentos-nome {
+   margin-top: 10px;
+   font-size: 1.4em;
+}
+
+.depoimentos-empresa {
+   font-weight: bold;
+}
+
+.depoimentos-interno {
+   margin-left: 20%;
+}
+
+.bola {
+   border: 1px solid #d6000d;
+   background-color: #d6000d;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position: absolute;
+}
+
+/* Footer */
+.footer {
+   margin-top: 100px;
+   background: #000;
+   color: #fff;
+   padding: 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   flex: 1;
+}
+
+.footer-titulo {
+   font-size: 1.5em;
+}
+
+.footer-titulo-logo {
+   font-size: 2.5em;
+}
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4 {
+   margin-top: 15px;
+   margin-right: 15px;
+   letter-spacing: 0.1em;
+}
+
+.footer-2 {
+   line-height: 1.5em;
+}
+
+.footer-3 {
+   line-height: 2.1em;
+}
+
+.footer-email {
+   color: #fff;
+   text-decoration: underline;
+}
+
+.footer-email:hover {
+   color: #d6000d;
+   transition: .2s;
+}
+
+.footer i {
+   margin-right: 15px;
+}
+
+.fab {
+   font-size: 2.5em !important; /*size whatever you like*/
+   color: #d6000d;
+}
+
+.fab:hover {
+   transform: scale(1.05);
+}
