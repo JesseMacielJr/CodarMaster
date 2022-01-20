@@ -28,8 +28,8 @@ a {
 
 img {
    display: block;
-   /* 100% do próprio tamanho da imagem */
    max-width: 100%;
+   height: auto;
 }
 
 * {
@@ -96,12 +96,10 @@ img {
    display: flex;
    justify-content: space-between;
    align-content: center;
-   /* border: 1px solid red; */
 }
 
 .introducao div {
    margin-bottom: 40px;
-   /* border: 1px solid green; */
 }
 
 .introducao img {
@@ -134,11 +132,10 @@ img {
 
 /* Detalhes */
 .detalhes {
-   margin-top: 200px;
+   margin-top: 150px;
    display: flex;
    justify-content: space-between;
    align-content: center;
-   /* border: 1px solid red; */
 }
 
 .detalhes-escrito ul {
@@ -286,7 +283,7 @@ img {
 }
 
 .fab {
-   font-size: 2.5em !important; /*size whatever you like*/
+   font-size: 2.5em !important;
    color: #d6000d;
 }
 

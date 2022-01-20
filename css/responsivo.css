@@ -49,6 +49,7 @@
 
    /* Detalhe */
    .detalhes {
+      margin-top: 40px;
       flex-wrap: wrap-reverse;
       justify-content: center;
    }
