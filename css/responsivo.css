@@ -42,20 +42,25 @@
       text-align: center;
    }
 
+   .introducao-escrito {
+      margin: 0 auto;
+   }
+
    .introducao-img,
    .detalhes-img {
       width: 350px;
+      margin: 0 auto;
    }
 
    /* Detalhe */
    .detalhes {
-      margin-top: 40px;
       flex-wrap: wrap-reverse;
       justify-content: center;
    }
 
    .detalhes-escrito {
       margin-top: -70px;
+      margin: 0 auto;
    }
 
    /* Contato */
