@@ -55,7 +55,7 @@
    /* Detalhe */
    .detalhes {
       flex-wrap: wrap-reverse;
-      justify-content: center;
+      margin-top: 50px;
    }
 
    .detalhes-escrito {

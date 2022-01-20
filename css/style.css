@@ -96,12 +96,10 @@ img {
    display: flex;
    justify-content: space-between;
    align-content: center;
-   /* border: 1px solid red; */
 }
 
 .introducao div {
    margin-bottom: 40px;
-   /* border: 1px solid green; */
 }
 
 .introducao img {
@@ -138,7 +136,6 @@ img {
    display: flex;
    justify-content: space-between;
    align-content: center;
-   /* border: 1px solid red; */
 }
 
 .detalhes-escrito ul {
@@ -193,6 +190,7 @@ img {
    width: 97%;
    margin-top: 200px;
    display: flex;
+   grid-gap: 10px;
    justify-content: center;
 }
 
